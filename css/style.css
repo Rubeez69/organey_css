@@ -1,0 +1,65 @@
+:root {
+    --e-global-color-text: #656766; 
+}
+body {
+    margin: 0 auto;
+}
+.header-top {
+    display:flex;
+    justify-content: space-between;
+    min-height: 52px;
+    margin-top: 0px;
+    background-color: #F2F7F3;
+    padding: 0px 25px;
+}
+.left-header-top {
+    display: flex;
+    align-items: center;
+}
+
+ul.lang {
+    list-style: none;
+}
+
+ul.contact {
+    display: flex;
+    list-style: none;
+}
+
+ul.contact .email, .login {
+    color: var(--e-global-color-text);
+}
+ul.contact .email:hover, .login:hover {
+    color: #5c9963;
+}
+ul.contact .email, i {
+    margin: 0px 25px 0px 0px;
+}
+
+
+ul.contact i {
+    margin: 0px 15px 0px 0px;
+    color: #5c9963;
+}
+
+ul.contact a {
+    text-decoration: none;
+}
+
+/* Header-search*/
+
+.header-search {
+    display: flex;
+    justify-content: space-between;
+    min-height: 120px;
+}
+
+.menu-bar .menu {
+    display: flex;
+    list-style: none;
+}
+
+.slide-image {
+    height: 400px;
+    background: green;
+}
